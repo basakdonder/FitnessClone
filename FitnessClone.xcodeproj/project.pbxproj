@@ -14,6 +14,7 @@
 		4F69D2AF2AF182F7005F5080 /* FitnessCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F69D2AE2AF182F7005F5080 /* FitnessCloneTests.swift */; };
 		4F69D2B92AF182F7005F5080 /* FitnessCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F69D2B82AF182F7005F5080 /* FitnessCloneUITests.swift */; };
 		4F69D2BB2AF182F7005F5080 /* FitnessCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F69D2BA2AF182F7005F5080 /* FitnessCloneUITestsLaunchTests.swift */; };
+		4FAB0BBE2AF2926F003A2D6D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB0BBD2AF2926F003A2D6D /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4F69D2B42AF182F7005F5080 /* FitnessCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F69D2B82AF182F7005F5080 /* FitnessCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessCloneUITests.swift; sourceTree = "<group>"; };
 		4F69D2BA2AF182F7005F5080 /* FitnessCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4FAB0BBD2AF2926F003A2D6D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		4F69D29C2AF182F2005F5080 /* FitnessClone */ = {
 			isa = PBXGroup;
 			children = (
+				4FAB0BBC2AF28747003A2D6D /* Views */,
 				4F69D29D2AF182F2005F5080 /* FitnessCloneApp.swift */,
 				4F69D29F2AF182F2005F5080 /* ContentView.swift */,
 				4F69D2A12AF182F6005F5080 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				4F69D2BA2AF182F7005F5080 /* FitnessCloneUITestsLaunchTests.swift */,
 			);
 			path = FitnessCloneUITests;
+			sourceTree = "<group>";
+		};
+		4FAB0BBC2AF28747003A2D6D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4FAB0BBD2AF2926F003A2D6D /* HeaderView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F69D2A02AF182F2005F5080 /* ContentView.swift in Sources */,
+				4FAB0BBE2AF2926F003A2D6D /* HeaderView.swift in Sources */,
 				4F69D29E2AF182F2005F5080 /* FitnessCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
